@@ -31,7 +31,7 @@ Windows中的种种限制让你感到不满？
 
 我的电脑我说了算！加载未签名驱动谁也别想拦我。
 
-#### 2. 真正的无条件开启wifi热点。
+#### 2. 真正的无条件开启wifi热点！
 ![Screenshot 2023-08-27 161337](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/1982e92d-dd62-43ca-8bd9-15625470a8e5)
 ![Screenshot 2023-08-27 161246](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/e759a80c-bfc9-4a8f-8233-d8d5178f71d0)
 
@@ -43,6 +43,22 @@ Windows中的种种限制让你感到不满？
 
 局域网联机打游戏传文件不行吗？
 
+尝试使用IDA修改系统文件却发现极为复杂的代码使我无从下手。
+
 经过我的苦苦搜寻，终于让我发现了一个能够绕过这个限制强制开启热点的宝藏小工具！
 
 在此大力感谢由True Software开发的My Public Wifi，使这一限制的破除成为可能！https://mypublicwifi.com/publicwifi/en/index.html
+
+#### 3. 可连接128人的超级强力永不宕机热点！
+![image](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/8f5d0280-bbaf-431a-a4d9-af8faa030cf6)
+
+经过我的不断钻研，终于成功通过修改注册表实现了最多可连接128人的超强wifi热点！
+
+同时，我还完全禁用了热点无人连接自动休眠的智障机制。
+
+除非手动关闭，否则热点将与Windows同尽！
+只要电脑依然开着，热点就不可能关闭！
+
+真正的永不宕机！
+
+#### 4. 
