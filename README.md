@@ -287,8 +287,7 @@ mklink "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.
 
 火绒要是真的要做适配岂不是要拿通过非正当途径泄露出去的Lindows 11.1内部测试版本去做适配？
 
-###  
-###  
+.
 
 当然，这个问题在Lindows 11.1普及到一定程度之前并不需要过多的担心。
 
@@ -298,8 +297,7 @@ mklink "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.
 
 **注意：我说不必过多的担心并不意味着不用担心！！！**
 
-###  
-###  
+.
 
 **警告：游戏玩家们请注意！**
 
