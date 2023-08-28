@@ -233,7 +233,7 @@ Windows 11 总是喜欢在后台偷偷发各种调试数据给各个厂商。
 3. 在弹出一个深蓝色背景的窗口中勾选上Long Lines选项，除此之外的全部取消勾选，然后点击OK。
 4. 右键生成的BAT文件选择编辑，你将会看到如下的代码：
    ![image](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/825a701b-e2ab-421b-b8cf-1a191585ad81)
-5. 在第三行添加上Powershell Expand-Archive -LiteralPath [压缩文件名称] -DestinationPath [解压路径]
+5. 在第三行添加上```Powershell Expand-Archive -LiteralPath [压缩文件名称] -DestinationPath [解压路径]```。
 6. 若要添加Lindows检测器，请在第一行之后插入下列代码：
    ```
    检测模块尚未完工
@@ -629,3 +629,35 @@ I have stripped down a lot of unnecessary components in windows to dramatically 
 
 There are only 61 active processes when the computer is idle, and the memory usage is only 1.3GB.
 
+# Software development related
+**If you want to develop software for Lindows 11.1, please read this section carefully**
+
+Doing software development in Lindows 11.1 is definitely going to be a lot easier than Windows, with a lot less annoying restrictions.
+
+Especially for UWP and driver developers.
+
+However, a side effect of this is that you will not be able to run your program on any other NT-based operating system.
+
+All customers that use your software will have to install Lindows 11.1 as well!
+
+So, to prevent people from giving you feedback such as, "They've only made a UI for scamming, just forget about it", you need to add a detection module to the installer.
+
+If it detects that the user is not using Lindows 11.1, it will automatically open this Github repository and direct the user to download and install the correct operating system to run your software.
+
+**Note: The following contents are important! **
+
+In Lindows 11.1, installation packages for applications are stored in *.BAT format.
+
+To make such an installation package, follow these steps:
+
+1. Compress your software into one or more *.zip archives.
+2. Right-click on this zip archive and find the Convert to BAT option in the Send to... menu. 
+3. In the dark blue background window that pops up, check the Long Lines box, uncheck everything else, and then click OK.
+4. Right click on the generated BAT file and select Edit, you will see the following code:
+   ![image](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/825a701b-e2ab-421b-b8cf-1a191585ad81)
+5. Add ```Powershell Expand-Archive -LiteralPath [zip file name] -DestinationPath [decompression path]``` to the third line.
+6. To add the Lindows detector, insert the following code after the first line:
+   ``
+   Detection module not yet complete
+   ```
+7. If necessary, you can perform actions such as creating a start menu shortcut, control panel uninstall entry, etc. before the third line.
