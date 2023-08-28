@@ -192,21 +192,22 @@ Windows 11 总是喜欢在后台偷偷发各种调试数据给各个厂商。
    检测模块尚未完工
    ```
 7. 若有必要，可选择在第三行之前执行创建开始菜单快捷方式，控制面板卸载条目等操作。
-   ```
-   控制面板添加卸载条目：
-   REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v DisplayName /t REG_SZ /d "My Program" /f
-   REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v DisplayVersion /t REG_SZ /d "v1.0" /f
-   REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v UninstallString /t REG_SZ /d "C:\Path\To\Uninstaller.bat" /f
-   REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v DisplayIcon /t REG_SZ /d "C:\Path\To\Icon.ico" /f
-   REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v NoModify /t REG_DWORD /d 0 /f
-   REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v ModifyPath /t REG_SZ /d "C:\Path\To\RepairTool.bat" /f
-   
-   添加快捷方式：
-   echo.[InternetShortcut] >"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
-   echo.URL=C:\Path\To\Program.exe >>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
-   echo.IconIndex=0 >>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
-   echo.IconFile=C:\Path\To\Program.exe >>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
-   ```
+```
+控制面板添加卸载条目：
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v DisplayName /t REG_SZ /d "My Program" /f
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v DisplayVersion /t REG_SZ /d "v1.0" /f
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v UninstallString /t REG_SZ /d "C:\Path\To\Uninstaller.bat" /f
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v DisplayIcon /t REG_SZ /d "C:\Path\To\Icon.ico" /f
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v NoModify /t REG_DWORD /d 0 /f
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v ModifyPath /t REG_SZ /d "C:\Path\To\RepairTool.bat" /f
+```
+```
+添加快捷方式：
+echo.[InternetShortcut] >"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
+echo.URL=C:\Path\To\Program.exe >>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
+echo.IconIndex=0 >>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
+echo.IconFile=C:\Path\To\Program.exe >>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
+```
 
 关于修复与卸载的批处理脚本可以用Ibat界面上方的快速启动中的ECHO generator工具进行转换。
 
