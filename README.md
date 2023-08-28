@@ -535,7 +535,7 @@ After a lot of research, I finally found a little tool that can bypass this rest
 A big thank you to My Public Wifi, developed by True Software, for making the breaking of this limitation possible! https://mypublicwifi.com/publicwifi/en/index.html
 
 ## 3. A super powerful never-downtime hotspot that can connect up to 128 devices! 
-! [image](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/8f5d0280-bbaf-431a-a4d9-af8faa030cf6)
+![image](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/8f5d0280-bbaf-431a-a4d9-af8faa030cf6)
 
 After my continuous research, I finally managed to achieve a super powerful wifi hotspot that can connect up to 128 users by modifying the registry!
 
@@ -547,14 +547,15 @@ As long as the computer is still on, the hotspot never disconnects!
 A true never downtime is achieved!
 
 ## 4. Killing system processes without BSOD!
+![image](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/2b5a0c71-caf5-46c0-8202-e5fd33ce94de)
 
 Windows is dedicated to preventing users from killing critical system processes!
 
-A BSOD will be displayed immediately after the process is killed.
+You will get a BSOD as soon as you killed the process.
 
 However, removing this restriction by modifying system files is not a good idea, because many batch creators like to use this method to manually trigger a BSOD.
 
-This well-known one-click BSOD code makes use of this principle:
+This well-known quick one-click BSOD code makes use of this principle:
 ``
 wmic process where name="wininit.exe" delete
 wmic process where name="smss.exe" delete
