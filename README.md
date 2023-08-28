@@ -418,3 +418,119 @@ Lindows 11.1内置了windows中提供的所有语言的语言包和字体文件�
 # 加入我们
 
 若你想加入Lindows 11.1的开发，请前往[此处](https://github.com/Freedom-Windows-Team/Lindows_11.1/discussions/1)与我们交流。
+
+#  
+
+# English readme: 
+
+Tip: Lindows 11.1 is not yet finished, this document only serves as a preview. Features may be added or removed at any time during the development process, please refer to the final product.
+
+**Please validate the only official download address: https://github.com/Freedom-Windows-Team/Lindows_11.1/releases**
+
+**Anyone is allowed to make their own customized version of Windows based on Lindows 11.1, but they must clearly indicate in Readme that they are using my work and they must clearly inform the user that the file they are downloading is not the original Lindows 11.1 officially released by Freedom Windows Team!
+
+**  
+
+Are you frustrated with all those limitations in Windows?
+
+No problem, I'll step in!
+
+
+Lindows 11.1, developed by myself, is a perfect hack for the many annoying and overbearing behaviors in Windows! It gives the computer user absolute control over his/her device!
+
+While having the simplicity and powerful software ecosystem of Windows, it also has the freedom and openness of Linux.
+
+## Modifications:
+
+## 1. Real permanent disable of driver signature enforcement!
+! [Screenshot 2023-08-27 151259](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/b9d0a844-b753-42eb-a90a- f9f644e0f1fb)
+
+An unsigned driver is not allowed to be installed? WTF is this?
+
+This driver is 100% harmless. I said that!
+
+Why won't it let me install it?
+
+It is the most stupid thing in the world to assume that all programs that are not digitally signed are harmful in such a rude and irrational way.
+
+On the other hand, are all signed drivers always safe?
+
+I've never seen a more ignorant setup than this in my life.
+
+I can't take it anymore, I want to crack this stuped thing immediately.
+
+Although there have been quite a few tutorials on the internet about this tweak, the information never unite.
+You can hardly find any two articles that follow the same steps, except for porting.
+The worst part is that 90% of the articles are either outdated or simply have no effect at all.
+
+I had no choice but to try all the relevant sources I could find one by one.
+
+At the same time, it is also necessary to combine the contents of multiple articles, and in many cases, the key information that was omitted in one article can be added back in another.
+
+After hundreds of hours of research and repeated experimenting, Lindows 11.1 is finally able to load any unsigned drivers and unsigned system kernel properly! 
+
+During the process, I got more than 50 blue screens, stuck in bootstraps for more than 10 times, and I met no less than 20 times of "Preparing for automatic repair... "!
+
+From now on, I am the boss of my computer! No one can ever stop me from loading any unsigned drivers.
+
+Many thanks to all netizens who helped me with this!
+
+Fangyzhai：
+http://bbs.wuyou.net/forum.php?mod=viewthread&tid=433012
+(most helpful!!!)
+
+菜菜：
+https://zhuanlan.zhihu.com/p/590181211
+
+金典教授：
+https://www.bilibili.com/read/cv20303238/
+
+hfiref0x's UPGDSED open source project:
+https://github.com/hfiref0x/UPGDSED/blob/master/src/main.c
+
+My own ultimate solution, put it out for you guys to waste less time:
+```
+In C:\Windows\System32, find the following files and put them into the IDA for disassembling
+(IDA download link: https://www.hex-rays.com/ida-pro)
+
+winload.exe: 
+Changed beginning of ImgpValidateImageHash to 33 C0 C3
+Changed beginning of OslInitiallizeCodeIntegrity to B0 01 C3
+
+winload.efi: 
+Changed beginning of ImgpValidateImageHash to 33 C0 C3
+Changed beginning of OslInitiallizeCodeIntegrity to B0 01 C3
+
+ntoskrnl.exe:
+Change the first mov eax, 0C0000428h that appears within SeVelidateImageData to mov eax, 0
+Change the first mov ecx, edi that appears within SepInitializeCodeIntegrity to xor ecx, ecx.
+
+Open LordPE and click on PE Editor (https://www.softpedia.com/get/Programming/File-Editors/LordPE.shtml)
+Select any of the files you have just edited.
+Click on the question mark next to Checksum.
+Click Save
+Click OK
+Repeat the above procedure for the remaining two files you've just modified.
+
+winload.exe and winload.efi need to be copied also to C:\Windows\System32\Boot and replace the two files in there as well.
+```
+
+## 2. Real unconditional enabling of wifi hotspot!
+! [Screenshot 2023-08-27 161337](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/1982e92d-dd62-43ca-8bd9- 15625470a8e5)
+! [Screenshot 2023-08-27 161246](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/e759a80c-bfc9-4a8f-8233- d8d5178f71d0)
+
+I used to believe that a hotspot requires an internet connection in order to turn it on, until I once discovered by accident that the hotspot actually works as long as there was internet access at the moment it was turning on!
+
+Once it's enabled, disconnecting the network has no effect on the hotspot!
+
+And after some research, I realized that this is actually an artificial restriction added by Microsoft.
+
+I was fired immediately, what does it matter if the hotspot does not have an internet connection?
+
+Can't I just play games and transfer files over the local area network?
+
+I tried to use IDA to modify the system files, but found that the extremely complex code makes me unable to start.
+
+After a lot of research, I finally found a little tool that can bypass this restriction and force the hotspot to be turned on!
+
+A big thank you to My Public Wifi, developed by True Software, for making the breaking of this limitation possible! https://mypublicwifi.com/publicwifi/en/index.html
