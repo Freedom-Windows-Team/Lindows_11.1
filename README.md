@@ -84,7 +84,7 @@ SepInitializeCodeIntegrity 将函数内出现的首个mov ecx, edi改成xor ecx,
 
 打开LordPE并点击PE Editor（https://www.softpedia.com/get/Programming/File-Editors/LordPE.shtml）
 选取刚刚修改过的文件中的任意一个
-点击Checksum旁边的问好
+点击Checksum旁边的问号
 点击Save
 点击OK
 对刚刚修改过的剩下两个文件重复上述操作修复校验和
