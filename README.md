@@ -534,3 +534,38 @@ I tried to use IDA to modify the system files, but found that the extremely comp
 After a lot of research, I finally found a little tool that can bypass this restriction and force the hotspot to be turned on!
 
 A big thank you to My Public Wifi, developed by True Software, for making the breaking of this limitation possible! https://mypublicwifi.com/publicwifi/en/index.html
+
+## 3. A super powerful never-downtime hotspot that can connect up to 128 devices! 
+! [image](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/8f5d0280-bbaf-431a-a4d9-af8faa030cf6)
+
+After my continuous research, I finally managed to achieve a super powerful wifi hotspot that can connect up to 128 users by modifying the registry!
+
+At the same time, I also completely disabled the idiot mechanism that automatically shuts down the hotspot when no one connects to it or when there is no internet access.
+
+The hotspot will finish with Windows unless it is manually turned off!
+As long as the computer is still on, the hotspot never disconnects!
+
+A true never downtime is achieved!
+
+## 4. Killing system processes without BSOD!
+
+Windows is dedicated to preventing users from killing critical system processes!
+
+A BSOD will be displayed immediately after the process is killed.
+
+However, removing this restriction by modifying system files is not a good idea, because many batch creators like to use this method to manually trigger a BSOD.
+
+This well-known one-click BSOD code makes use of this principle:
+``
+wmic process where name="wininit.exe" delete
+wmic process where name="smss.exe" delete
+wmic process where Name="svchost.exe" delete
+wmic process where name="csrss.exe" delete
+```
+So, if we completely destroy the mechanism that issues a BSOD when a system process are being killed, then all the batch code that makes use of this mechanism to achieve a manually triggered BSOD will all malfunction!
+
+At the time I was stuck, the friendly 任务管理器TSK provides us with a very convenient gadget: Notcritical.exe! https://space.bilibili.com/102499223
+
+It can be used to change a system process to an ordinary process, or change an ordinary process to a system process very easily.
+
+Just use it to simply modify the process type, then you will be able to perfectly kill the system critical processes without getting a BSOD!
