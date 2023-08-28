@@ -1,4 +1,4 @@
-# Lindows 11.1 
+# **Lindows 11.1** 
 
 提示：Lindows 11.1 尚未完工，此文档仅起到预告的作用。开发过程中随时可能会对功能进行增减，请以最终成品为准。
 
@@ -13,9 +13,9 @@ Windows中的种种限制让你感到不满？
 
 在拥有Windows的简单易用与强大的软件生态的同时，又拥有Linux的自由开放。
 
-## 修改内容：
+# 修改内容：
 
-### 1. 真正的永久禁用驱动程序签名强制
+## 1. 真正的永久禁用驱动程序签名强制
 ![Screenshot 2023-08-27 151259](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/b9d0a844-b753-42eb-a90a-f9f644e0f1fb)
 
 未签名的驱动程序不让安装？岂有此理？？？
@@ -38,7 +38,7 @@ Windows中的种种限制让你感到不满？
 
 从现在起，我的电脑我说了算！加载未签名驱动谁也别想拦我。
 
-### 2. 真正的无条件开启wifi热点！
+## 2. 真正的无条件开启wifi热点！
 ![Screenshot 2023-08-27 161337](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/1982e92d-dd62-43ca-8bd9-15625470a8e5)
 ![Screenshot 2023-08-27 161246](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/e759a80c-bfc9-4a8f-8233-d8d5178f71d0)
 
@@ -58,7 +58,7 @@ Windows中的种种限制让你感到不满？
 
 在此大力感谢由True Software开发的My Public Wifi，使这一限制的破除成为可能！https://mypublicwifi.com/publicwifi/en/index.html
 
-### 3. 可连接128人的超级强力永不宕机热点！
+## 3. 可连接128人的超级强力永不宕机热点！
 ![image](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/8f5d0280-bbaf-431a-a4d9-af8faa030cf6)
 
 经过我的不断钻研，终于成功通过修改注册表实现了最多可连接128人的超强wifi热点！
@@ -70,7 +70,7 @@ Windows中的种种限制让你感到不满？
 
 做到了真正的永不宕机！
 
-### 4. 杀系统进程不蓝屏
+## 4. 杀系统进程不蓝屏
 
 Windows为了不让用户杀掉系统关键进程也是用心良苦啊！
 
