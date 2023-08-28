@@ -263,7 +263,7 @@ mklink "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.
 
 ```
 
-关于修复与卸载的批处理脚本可以用Ibat界面上方的快速启动中的ECHO generator工具进行转换。
+关于修复与卸载的批处理脚本可以用Ibat界面上方的快速启动中的ECHO generator工具进行转换。(你可以在开始菜单中找到Ibat）
 
 用Notepad++批量查找替换```&@ECHO.```为```>>"C:\Path\To\Uninstaller.bat"&@ECHO.```。
 
@@ -685,7 +685,7 @@ mklink "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.
 
 ```
 
-Batch scripts about repairing and uninstalling can be converted using the ECHO generator tool in the Quick Launch menu at the top of Ibat interface.
+Batch scripts about repairing and uninstalling can be converted using the ECHO generator tool in the 快速启动 menu in Ibat at the top. (You can find Ibat in the start menu)
 
 Use Notepad++ to find and replace ```&@ECHO.``` with ```>>"C:\Path\To\Uninstaller.bat"&@ECHO.```.
 
