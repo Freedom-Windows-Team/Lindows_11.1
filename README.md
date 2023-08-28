@@ -182,7 +182,7 @@ Windows 11 总是喜欢在后台偷偷发各种调试数据给各个厂商。
 
 如果你使用网络监控软件进行监视，你会发现windows在你完全没有进行任何网页浏览的情况下偷偷地在网上传输了大量的数据！
 
-大力感谢The PC Security Channel为众人揭露了这一细思极恐的秘密以及关键修改方案！https://youtu.be/IT4vDfA_4NI
+大力感谢The PC Security Channel为众人揭露了这一细思极恐的小秘密并提供了关键修改方案！https://youtu.be/IT4vDfA_4NI
 
 ## 9. 可加载第三方主题文件！
 
