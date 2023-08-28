@@ -64,6 +64,9 @@ https://github.com/hfiref0x/UPGDSED/blob/master/src/main.c
 
 我自己的最终方案：
 ```
+在C:\Windows\System32中找到如下的几个文件放入IDA修改
+（IDA下载地址：https://www.hex-rays.com/ida-pro）
+
 winload.exe:
 ImgpValidateImageHash 函数开头改成 33 C0 C3
 OslInitiallizeCodeIntegrity 函数开头改成 B0 01 C3
@@ -82,6 +85,8 @@ SepInitializeCodeIntegrity 将函数内出现的首个mov ecx, edi改成xor ecx,
 点击Save
 点击OK
 对刚刚修改过的剩下两个文件重复上述操作修复校验和
+
+winload.exe和winload.efi还需要复制到C:\Windows\System32\Boot中把那个里面的两个文件也替换掉。
 ```
 
 ## 2. 真正的无条件开启wifi热点！
