@@ -262,7 +262,7 @@ mklink "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.
 
 关于修复与卸载的批处理脚本可以用Ibat界面上方的快速启动中的ECHO generator工具进行转换。
 
-用记事本批量查找替换‘&@ECHO.’为‘>>"C:\Path\To\Uninstaller.bat"&@ECHO.’。
+用Notepad++批量查找替换‘&@ECHO.’为‘>>"C:\Path\To\Uninstaller.bat"&@ECHO.’。
 
 把文件中出现的首个‘>>"C:\Path\To\Uninstaller.bat"&@ECHO.’替换成‘>"C:\Path\To\Uninstaller.bat"&@ECHO.’。
 
@@ -661,3 +661,37 @@ To make such an installation package, follow these steps:
    Detection module not yet complete
    ```
 7. If necessary, you can perform actions such as creating a start menu shortcut, control panel uninstall entry, etc. before the third line.
+```
+Uninstall entry in control panel：
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v DisplayName /t REG_SZ /d "My Program" /f
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v DisplayVersion /t REG_SZ /d "v1.0" /f
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v UninstallString /t REG_SZ /d "C:\Path\To\Uninstaller.bat" /f
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v DisplayIcon /t REG_SZ /d "C:\Path\To\Icon.ico" /f
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v NoModify /t REG_DWORD /d 0 /f
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v ModifyPath /t REG_SZ /d "C:\Path\To\RepairTool.bat" /f
+```
+```
+Add shortcut：
+Method 1：
+echo.[InternetShortcut] >"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
+echo.URL=C:\Path\To\Program.exe >>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
+echo.IconIndex=0 >>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
+echo.IconFile=C:\Path\To\Program.exe >>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
+Method 2：
+mklink "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.exe" "C:\Path\To\Program.exe"
+
+```
+
+Batch scripts about repairing and uninstalling can be converted using the ECHO generator tool in the Quick Launch menu at the top of Ibat interface.
+
+Use Notepad++ to find and replace '&@ECHO.' with '>>"C:\Path\To\Uninstaller.bat"&@ECHO.'.
+
+Replace the first '>>"C:\Path\To\Uninstaller.bat"&@ECHO.' that appears in the file with '>"C:\Path\To\Uninstaller.bat"&@ECHO. '.
+
+Add '>>"C:\Path\To\Uninstaller.bat"' to the end of the file, with a caution not to break lines.
+
+Subsequently, just paste the code directly into the installer.
+
+Note that there is a limit on the length of a single line of text in the batch program, and the part that exceeds the limit will not be read by CMD.
+
+If you can't write back properly after conversion, please try to replace all '&@ECHO.' with '\n@ECHO.'.
