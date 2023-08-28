@@ -1,6 +1,6 @@
 # **Lindows 11.1** 
 
-### [English readme](https://github.com/Freedom-Windows-Team/Lindows_11.1/tree/main#english-readme)
+### [Don't speak Chinese? Come over here! ](https://github.com/Freedom-Windows-Team/Lindows_11.1/tree/main#english-readme)
 
 
 提示：Lindows 11.1 尚未完工，此文档仅起到预告的作用。开发过程中随时可能会对功能进行增减，请以最终成品为准。
