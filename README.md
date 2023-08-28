@@ -241,7 +241,7 @@ Windows 11 总是喜欢在后台偷偷发各种调试数据给各个厂商。
    ```
    检测模块尚未完工
    ```
-7. 若有必要，可选择在第三行之前执行创建开始菜单快捷方式，控制面板卸载条目等操作。
+7. 若有必要，可选择在第三行之后执行创建开始菜单快捷方式，控制面板卸载条目等操作。
 ```
 控制面板添加卸载条目：
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v DisplayName /t REG_SZ /d "My Program" /f
@@ -663,7 +663,7 @@ To make such an installation package, follow these steps:
    ```
    Detection module not yet complete
    ```
-7. If necessary, you can perform actions such as creating a start menu shortcut, control panel uninstall entry, etc. before the third line.
+7. If necessary, you can perform actions such as creating a start menu shortcut, control panel uninstall entry, etc. after the third line.
 ```
 Uninstall entry in control panel：
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v DisplayName /t REG_SZ /d "My Program" /f
