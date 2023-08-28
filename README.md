@@ -102,7 +102,7 @@ wmic process where name="csrss.exe" delete
 
 此选项开箱立即生效无需手动设置！
 
-## 6. 允许双击安装未签名UWP应用！
+## 6. 直接双击就能安装任何未签名的UWP应用！
 
 众所周知，使用powershell命令可以安装未签名的UWP应用。
 但这个方法还是太过繁琐。
