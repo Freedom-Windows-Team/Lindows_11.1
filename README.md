@@ -265,17 +265,17 @@ mklink "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.
 
 关于修复与卸载的批处理脚本可以用Ibat界面上方的快速启动中的ECHO generator工具进行转换。
 
-用Notepad++批量查找替换‘&@ECHO.’为‘>>"C:\Path\To\Uninstaller.bat"&@ECHO.’。
+用Notepad++批量查找替换```&@ECHO.```为```>>"C:\Path\To\Uninstaller.bat"&@ECHO.```。
 
-把文件中出现的首个‘>>"C:\Path\To\Uninstaller.bat"&@ECHO.’替换成‘>"C:\Path\To\Uninstaller.bat"&@ECHO.’。
+把文件中出现的首个```>>"C:\Path\To\Uninstaller.bat"&@ECHO.```替换成```>"C:\Path\To\Uninstaller.bat"&@ECHO.```。
 
-在文件末尾添加‘>>"C:\Path\To\Uninstaller.bat"’，注意不要换行。
+在文件末尾添加```>>"C:\Path\To\Uninstaller.bat"```，注意不要换行。
 
 随后直接将代码粘贴进安装程序即可。
 
 需要注意的是批处理有单行文本长度限制，超出限制的部分将不会被CMD读取。
 
-若出现转换后无法正常回写的状况，请尝试将所有的‘&@ECHO.’替换成‘\n@ECHO.’。
+若出现转换后无法正常回写的状况，请尝试将所有的```&@ECHO.```替换成```\n@ECHO.```。
 
 # 注意事项
 
@@ -687,14 +687,14 @@ mklink "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.
 
 Batch scripts about repairing and uninstalling can be converted using the ECHO generator tool in the Quick Launch menu at the top of Ibat interface.
 
-Use Notepad++ to find and replace '&@ECHO.' with '>>"C:\Path\To\Uninstaller.bat"&@ECHO.'.
+Use Notepad++ to find and replace ```&@ECHO.``` with ```>>"C:\Path\To\Uninstaller.bat"&@ECHO.```.
 
-Replace the first '>>"C:\Path\To\Uninstaller.bat"&@ECHO.' that appears in the file with '>"C:\Path\To\Uninstaller.bat"&@ECHO. '.
+Replace the first ```>>"C:\Path\To\Uninstaller.bat"&@ECHO.``` that appears in the file with ```>"C:\Path\To\Uninstaller.bat"&@ECHO.```.
 
-Add '>>"C:\Path\To\Uninstaller.bat"' to the end of the file, with a caution not to break lines.
+Add ```>>"C:\Path\To\Uninstaller.bat"``` to the end of the file, with a caution not to break lines.
 
 Subsequently, just paste the code directly into the installer.
 
 Note that there is a limit on the length of a single line of text in the batch program, and the part that exceeds the limit will not be read by CMD.
 
-If you can't write back properly after conversion, please try to replace all '&@ECHO.' with '\n@ECHO.'.
+If you can't write back properly after conversion, please try to replace all ```&@ECHO.``` with ```\n@ECHO.```.
