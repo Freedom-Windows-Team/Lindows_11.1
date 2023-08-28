@@ -637,7 +637,7 @@ Doing software development in Lindows 11.1 is definitely going to be a lot easie
 
 Especially for UWP and driver developers.
 
-However, a side effect of this is that you will not be able to run your program on any other NT-based operating system.
+However, a side effect of this is that you will not be able to run your program on any other NT-based operating systems.
 
 All customers that use your software will have to install Lindows 11.1 as well!
 
@@ -699,7 +699,7 @@ If you can't write back properly after conversion, please try to replace all ```
 
 # Notices
 
-Before using Lindows 11.1, please make sure that you have basic manual antivirus capabilities!
+Before using Lindows 11.1, please make sure that you have basic manual malware removal capabilities!
 
 In a system where all Windows's original security policies have been almost completely broken, Lindows 11.1 will have more security vulnerabilities than any other NT-based operating system.
 
