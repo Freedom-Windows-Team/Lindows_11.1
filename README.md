@@ -200,7 +200,7 @@ Windows 11 总是喜欢在后台偷偷发各种调试数据给各个厂商。
 
 我对windows中的很多不必要的组件都进行了精简，大幅提高系统运行效率。
 
-电脑空闲时仅有61个活动进程，内存占用仅仅只有1.8GB。
+电脑空闲时仅有61个活动进程，内存占用仅仅只有1.3GB。
 
 # 软件开发相关
 **若您想为Lindows 11.1开发软件，请仔细阅读本段内容**
@@ -245,10 +245,13 @@ REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\
 ```
 ```
 添加快捷方式：
+方法1：
 echo.[InternetShortcut] >"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
 echo.URL=C:\Path\To\Program.exe >>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
 echo.IconIndex=0 >>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
 echo.IconFile=C:\Path\To\Program.exe >>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
+方法2：
+mklink "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.exe" "C:\Path\To\Program.exe"
 ```
 
 关于修复与卸载的批处理脚本可以用Ibat界面上方的快速启动中的ECHO generator工具进行转换。
