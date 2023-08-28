@@ -388,7 +388,7 @@ Lindows 11.1默认显示语言为英文，但它内置了中文的语言包。
 设置中文方法如下：
 
 1. 按下Win+R
-2. 输入‘ms-settings:’
+2. 输入```ms-settings:```
 3. 在左侧点击time and language
 4. 点击Language & region
 5. 在Windows display language里面选取‘中文（中华人民共和国）’选项
@@ -755,7 +755,7 @@ Place the original windows 11 iso in the same directory with Patch.bat and execu
 
 After a while, you will obtain the full Lindows 11.1 installation image.
 
-## How to install Lindows 11.1 on your own computer
+# How to install Lindows 11.1 on your own computer
 
 ## Method 1: Fresh Installation (Recommended)
 
@@ -777,7 +777,7 @@ After a while, you will obtain the full Lindows 11.1 installation image.
 15. Turn the computer off.
 16. Press F12 at boot time to access the boot menu.
 17. Choose to boot from your USB flash drive. (Be careful to avoid any boot entries with the word UEFI in them!)
-18. When you see "Press any key to boot from CD/DVD......", press any key on your keyboard immediately.
+18. When you see "Press any key to boot from CD/DVD...", press any key on your keyboard immediately.
     It doesn't matter which key you press, but something must be pressed, and before this text disappears!
 19. If all of the above steps have been performed correctly, you will see four blue squares in the center of the screen and a small white circle spinning underneath.
     If you see your computer's manufacturer's logo, that means you did something wrong in step 14.
@@ -800,3 +800,48 @@ After a while, you will obtain the full Lindows 11.1 installation image.
 2. Click Upgrade.
 3. Wait for the installation to complete.
 4. Enjoy!
+
+# Language Settings
+
+The default display language of Lindows 11.1 is English, but it has a built-in Chinese language pack.
+
+You don't need to download it separately, just simply adjust it in the settings and you can use it.
+
+To set the language to Chinese, follow the steps below:
+
+1. Press Win+R
+2. Type ```ms-settings:```
+3. Click on time and language on the left side.
+4. Click on Language & region 
+5. Select '中文（中华人民共和国）' in the Windows display language.
+6. Log out and log in again 
+7. Done
+
+Switching to any other languages is done in the same way.
+
+# Image size issues
+
+You claim to simplify windows by removing unnecessary components, but why is the size of the Lindows iso even larger than the original?
+A backward simplification?
+
+In order to save time downloading language packs and input methods. 
+Lindows 11.1 has got all language packs and font files for all the languages provided in windows built-in, just like macOS.
+
+In addition to that, we have built-in quite a few third-party applications, resulting in a large image that is even larger than the original. 
+
+However, unlike Microsoft's approach of bundling software, we were extremely conscious of the cleanliness of the system while bundling third-party applications.
+
+There's a lot of software that I think is great, but not everyone in the world needs, available as installers in the system.
+
+They just stay there quietly, not asking no answering. 
+But once you ask, they respond quickly!
+
+Moreover, it supports batch deletion with a single click, so users don't need to manually click on them to remove them one by one.
+
+Isn't it convenient?
+
+If necessary, you can leave a message in [discussions](https://github.com/Freedom-Windows-Team/Lindows_11.1/discussions) to ask me for a compact version of Lindows 11.1 image.
+
+# Join us
+
+If you want to join the development of Lindows 11.1, please come over [here](https://github.com/Freedom-Windows-Team/Lindows_11.1/discussions/1) to communicate with us.
