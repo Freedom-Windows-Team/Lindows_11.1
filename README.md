@@ -572,3 +572,16 @@ It can be used to change a system process to an ordinary process, or change an o
 Just use it to modify the process type, then you will be able to perfectly kill the system critical processes without getting a BSOD!
 
 And at the same time, the batch code that achieves manual triggering the BSOD by killing the system processes also works properly.
+
+## 5. RDP can remotely log in to accounts with no or empty passwords!
+
+The option to enable remote login to accounts with no passwords or empty passwords with RDP via Group Policy has been implemented.
+
+This option is available out-of-the-box and does not need to be set manually!
+
+## 6. Install any unsigned UWP apps with just a double-click!
+
+It is well known that you can install unsigned UWP apps via powershell command.
+But this method is far too complicated.
+
+Wouldn't it be better if we create a file association for it, and double-click on it will automatically call powershell to bypass the signature check?
