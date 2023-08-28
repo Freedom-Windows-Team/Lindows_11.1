@@ -79,7 +79,7 @@ ntoskrnl.exe：
 SeVelidateImageData 将函数内出现的首个mov eax, 0C0000428h改成mov eax, 0
 SepInitializeCodeIntegrity 将函数内出现的首个mov ecx, edi改成xor ecx, ecx
 
-打开LordPE并点击PE Editor
+打开LordPE并点击PE Editor（https://www.softpedia.com/get/Programming/File-Editors/LordPE.shtml）
 选取刚刚修改过的文件中的任意一个
 点击Checksum旁边的问好
 点击Save
