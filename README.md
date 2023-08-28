@@ -68,6 +68,10 @@ winload.exe:
 ImgpValidateImageHash 函数开头改成 33 C0 C3
 OslInitiallizeCodeIntegrity 函数开头改成 B0 01 C3
 
+winload.efi:
+ImgpValidateImageHash 函数开头改成 33 C0 C3
+OslInitiallizeCodeIntegrity 函数开头改成 B0 01 C3
+
 ntoskrnl.exe：
 SeVelidateImageData 将函数内出现的首个mov eax, 0C0000428h改成mov eax, 0
 SepInitializeCodeIntegrity 将函数内出现的首个mov ecx, edi改成xor ecx, ecx
