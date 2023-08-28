@@ -183,7 +183,7 @@ Windows 11 总是喜欢在后台偷偷发各种调试数据给各个厂商。
 
 在此大力感谢Rectify 11为Lindows提供极为惊艳的系统主题。https://github.com/Rectify11/Installer
 
-感谢Stardock开发的神器WindowFX给予Lindows 11.1极为诱人的窗口动画效果。https://www.stardock.com/products/windowfx/
+感谢神器WindowFX给予Lindows 11.1极为诱人的窗口动画效果。
 
 ## 11. 与Linux相媲美的超快运行效率！
 
@@ -292,7 +292,7 @@ echo.IconFile=C:\Path\To\Program.exe >>"C:\ProgramData\Microsoft\Windows\Start M
 
 应用补丁的方式如下：
 
-前往https://archive.org/download/windows-11_21h2-22000-318/Windows%2011.iso下载微软官方原版的Windows 11 21H1镜像。
+前往 https://archive.org/download/windows-11_21h2-22000-318/Windows%2011.iso 下载微软官方原版的Windows 11 21H1镜像。
 
 从release页面下载最新的Lindows 11.1补丁。
 
