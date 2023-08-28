@@ -548,8 +548,6 @@ At the same time, I also completely disabled the idiot mechanism that automatica
 The hotspot will finish with Windows unless it is manually turned off!
 As long as the computer is still on, the hotspot never disconnects!
 
-A true never downtime is achieved!
-
 ## 4. Killing system processes without BSOD!
 ![image](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/2b5a0c71-caf5-46c0-8202-e5fd33ce94de)
 
