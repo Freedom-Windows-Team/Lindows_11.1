@@ -614,7 +614,7 @@ Big thanks to The PC Security Channel for lifting the fog on this nifty little s
 
 ## 10. Third party theme files can be loaded!
 
-Broken the limit to third-party themes, with paved the way for the 11th modification!
+Broken the limit to third-party themes, which have paved the way for the 11th modification!
 
 ## 11. Premium system interface beautification!
 
