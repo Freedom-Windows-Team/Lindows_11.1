@@ -180,7 +180,7 @@ windows defender从不会在处理危险项目前询问用户的意见，且误�
 
 现在终于能够彻底摆脱掉这个烦人的家伙了！
 
-## 8. 严禁Lindows 11.1在用户不知情的情况下发送任何调试数据给任何人！
+## 9. 严禁Lindows 11.1在用户不知情的情况下发送任何调试数据给任何人！
 
 Windows 11 总是喜欢在后台偷偷发各种调试数据给各个厂商。
 且先不谈拖慢系统运行速度，这样的行为是对用户隐私极大的不尊重！
@@ -189,11 +189,11 @@ Windows 11 总是喜欢在后台偷偷发各种调试数据给各个厂商。
 
 大力感谢The PC Security Channel为众人揭露了这一细思极恐的小秘密并提供了关键修改方案！https://youtu.be/IT4vDfA_4NI
 
-## 9. 可加载第三方主题文件！
+## 10. 可加载第三方主题文件！
 
-破解第三方主题，为第10项修改开路！
+破解第三方主题，为第11项修改开路！
 
-## 10. 顶级系统界面美化！
+## 11. 顶级系统界面美化！
 
 有和Linux一样的自由，同时也要有和Linux一样诱人的系统界面！
 
@@ -201,7 +201,7 @@ Windows 11 总是喜欢在后台偷偷发各种调试数据给各个厂商。
 
 感谢神器WindowFX给予Lindows 11.1极为诱人的窗口动画效果。
 
-## 11. 与Linux相媲美的超快运行效率！
+## 12. 与Linux相媲美的超快运行效率！
 
 我对windows中的很多不必要的组件都进行了精简，大幅提高系统运行效率。
 
@@ -606,3 +606,19 @@ Now we could finally get rid of it!
 
 Windows 11 always likes to secretly send debugging data to various vendors in the background.
 Without mentioning slowing down the system speed, such behavior is extremely disrespectful to the user's privacy!
+
+If you use network surveillance software to monitor, you will discover that windows is secretly transferring a lot of data over the internet while you are not doing any web browsing at all!
+
+Big thanks to The PC Security Channel for lifting the fog on this nifty little secret for the public and providing a great solution for this! https://youtu.be/IT4vDfA_4NI
+
+## 10. Third party theme files can be loaded!
+
+Broken the limit to third-party themes, with paved the way for the 11th modification!
+
+## 11. Premium system interface beautification!
+
+Have the same freedom as Linux, but also have the same attractive system interface as Linux!
+
+Big thanks to Rectify 11 for providing Lindows with an extremely stunning system theme. https://github.com/Rectify11/Installer
+
+Thanks to WindowFX for giving Lindows 11.1 a very attractive window animation effect.
