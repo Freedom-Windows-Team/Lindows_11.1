@@ -442,7 +442,7 @@ While having the simplicity and powerful software ecosystem of Windows, it also 
 ## Modifications:
 
 ## 1. Real permanent disable of driver signature enforcement!
-! [Screenshot 2023-08-27 151259](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/b9d0a844-b753-42eb-a90a- f9f644e0f1fb)
+![Screenshot 2023-08-27 151259](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/b9d0a844-b753-42eb-a90a-f9f644e0f1fb)
 
 An unsigned driver is not allowed to be installed? WTF is this?
 
@@ -515,8 +515,8 @@ winload.exe and winload.efi need to be copied also to C:\Windows\System32\Boot a
 ```
 
 ## 2. Real unconditional enabling of wifi hotspot!
-! [Screenshot 2023-08-27 161337](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/1982e92d-dd62-43ca-8bd9- 15625470a8e5)
-! [Screenshot 2023-08-27 161246](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/e759a80c-bfc9-4a8f-8233- d8d5178f71d0)
+![Screenshot 2023-08-27 161337](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/1982e92d-dd62-43ca-8bd9-15625470a8e5)
+![Screenshot 2023-08-27 161246](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/e759a80c-bfc9-4a8f-8233-d8d5178f71d0)
 
 I used to believe that a hotspot requires an internet connection in order to turn it on, until I once discovered by accident that the hotspot actually works as long as there was internet access at the moment it was turning on!
 
