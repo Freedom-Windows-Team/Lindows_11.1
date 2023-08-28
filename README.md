@@ -49,7 +49,19 @@ Windows中的种种限制让你感到不满？
 
 在此感谢所有为我提供帮助的热心网友们！
 
+Fangyzhai：
 http://bbs.wuyou.net/forum.php?mod=viewthread&tid=433012
+帮助最大！！！
+
+菜菜：
+https://zhuanlan.zhihu.com/p/590181211
+
+金典教授：
+https://www.bilibili.com/read/cv20303238/
+
+hfiref0x的UPGDSED开源项目：
+https://github.com/hfiref0x/UPGDSED/blob/master/src/main.c
+
 ## 2. 真正的无条件开启wifi热点！
 ![Screenshot 2023-08-27 161337](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/1982e92d-dd62-43ca-8bd9-15625470a8e5)
 ![Screenshot 2023-08-27 161246](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/e759a80c-bfc9-4a8f-8233-d8d5178f71d0)
