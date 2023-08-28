@@ -186,3 +186,40 @@ Windows 11 总是喜欢在后台偷偷发各种调试数据给各个厂商。
 3. 在弹出一个深蓝色背景的窗口中勾选上Long Lines选项，除此之外的全部取消勾选，然后点击OK。
 4. 右键生成的BAT文件选择编辑，你将会看到如下的代码：
    ![image](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/825a701b-e2ab-421b-b8cf-1a191585ad81)
+5. 在第三行添加上Powershell Expand-Archive -LiteralPath [压缩文件名称] -DestinationPath [解压路径]
+6. 若要添加Lindows检测器，请在第一行之后插入下列代码：
+   ```
+   检测模块尚未完工
+   ```
+7. 若有必要，可选择在第三行之前执行创建开始菜单快捷方式，控制面板卸载条目等操作。
+   ```
+控制面板添加卸载条目：
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v DisplayName /t REG_SZ /d "My Program" /f
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v DisplayVersion /t REG_SZ /d "v1.0" /f
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v UninstallString /t REG_SZ /d "C:\Path\To\Uninstaller.bat" /f
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v DisplayIcon /t REG_SZ /d "C:\Path\To\Icon.ico" /f
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v NoModify /t REG_DWORD /d 0 /f
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Program_ID" /v ModifyPath /t REG_SZ /d "C:\Path\To\RepairTool.bat" /f
+
+添加快捷方式：
+echo.[InternetShortcut] >"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
+echo.URL=C:\Path\To\Program.exe >>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
+echo.IconIndex=0 >>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
+echo.IconFile=C:\Path\To\Program.exe >>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
+```
+
+关于修复与卸载的批处理脚本可以用Ibat界面上方的快速启动中的ECHO generator工具进行转换。
+
+用记事本批量查找替换‘&@ECHO.’为‘>>"C:\Path\To\Uninstaller.bat"&@ECHO.’。
+
+把文件中出现的首个‘>>"C:\Path\To\Uninstaller.bat"&@ECHO.’替换成‘>"C:\Path\To\Uninstaller.bat"&@ECHO.’。
+
+在文件末尾添加‘>>"C:\Path\To\Uninstaller.bat"’，注意不要换行。
+
+随后直接将代码粘贴进安装程序即可。
+
+需要注意的是批处理有单行文本长度限制，超出限制的部分将不会被读取。
+
+若出现转换后无法正常回写的状况，请尝试将所有的‘&@ECHO.’替换成‘\n@ECHO.’。
+
+# 注意事项
