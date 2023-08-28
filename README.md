@@ -522,9 +522,9 @@ winload.exe and winload.efi need to be copied also to C:\Windows\System32\Boot a
 ![Screenshot 2023-08-27 161337](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/1982e92d-dd62-43ca-8bd9-15625470a8e5)
 ![Screenshot 2023-08-27 161246](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/e759a80c-bfc9-4a8f-8233-d8d5178f71d0)
 
-I used to believe that a hotspot requires an internet connection in order to turn it on, until I once discovered by accident that the hotspot actually works as long as there was internet access at the moment it was turning on!
+I used to believe that a hotspot requires an internet connection in order to turn it on, until once I discovered by accident that the hotspot actually works as long as there was internet access at the moment it was turning on!
 
-Once it's enabled, disconnecting the network has no effect on the hotspot!
+Once it's turned on already, disconnecting the network has no effect on the hotspot!
 
 And after some research, I realized that this is actually an artificial restriction added by Microsoft.
 
