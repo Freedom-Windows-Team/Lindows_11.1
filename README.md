@@ -626,7 +626,7 @@ Thanks to WindowFX for giving Lindows 11.1 a very attractive window animation ef
 
 ## 12. A super high efficiency comparable to Linux!
 
-I have stripped down a lot of unnecessary components in windows to dramatically improve the system's running efficiency.
+I have stripped down a lot of unnecessary components in windows which had imporved its efficiency dramatically.
 
 There are only 61 active processes when the computer is idle, and the memory usage is only 1.3GB.
 
