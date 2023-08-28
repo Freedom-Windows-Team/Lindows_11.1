@@ -557,7 +557,7 @@ You will get a BSOD as soon as you killed the process.
 However, removing this restriction by modifying system files is not a good idea, because many batch creators like to use this method to manually trigger a BSOD.
 
 This well-known quick one-click BSOD code makes use of this principle:
-``
+```
 wmic process where name="wininit.exe" delete
 wmic process where name="smss.exe" delete
 wmic process where Name="svchost.exe" delete
