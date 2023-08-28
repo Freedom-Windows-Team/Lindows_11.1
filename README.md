@@ -337,3 +337,13 @@ echo.IconFile=C:\Path\To\Program.exe >>"C:\ProgramData\Microsoft\Windows\Start M
     此时有一定概率可能会出现安装错误。
     不用担心，重启电脑后从第15步开始再做一次就能解决掉90%的安装错误问题。
 28. 进入桌面后打开文件资源管理器并找到之前下载好的驱动程序
+29. Enjoy！
+
+## 方案2：从Windows升级到Lindows 11.1
+
+1. 从第3步开始跟随上方的全新安装的教程走完第22步以后停下。
+2. 点击Upgrade。
+3. 等待安装完成。
+4. Enjoy！
+
+# 
