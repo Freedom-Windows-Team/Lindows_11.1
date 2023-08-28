@@ -472,7 +472,7 @@ At the same time, it is also necessary to combine the contents of multiple artic
 
 After hundreds of hours of research and repeated experimenting, Lindows 11.1 is finally able to load any unsigned drivers and unsigned system kernel properly! 
 
-During the process, I got more than 50 blue screens, stuck in bootstraps for more than 10 times, and I met no less than 20 times of "Preparing for automatic repair... "!
+During the process, I got more than 50 BSOD, stuck in bootstraps for more than 10 times, and I met no less than 20 times of "Preparing for automatic repair... "!
 
 From now on, I am the boss of my computer! No one can ever stop me from loading any unsigned drivers.
 
