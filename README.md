@@ -62,6 +62,17 @@ https://www.bilibili.com/read/cv20303238/
 hfiref0x的UPGDSED开源项目：
 https://github.com/hfiref0x/UPGDSED/blob/master/src/main.c
 
+我自己的最终方案：
+```
+winload.exe:
+ImgpValidateImageHash 函数开头改成 33 C0 C3
+OslInitiallizeCodeIntegrity 函数开头改成 B0 01 C3
+
+ntoskrnl.exe：
+SeVelidateImageData 将函数内出现的首个mov eax, 0C0000428h改成mov eax, 0
+SepInitializeCodeIntegrity 将函数内出现的首个mov ecx, edi改成xor ecx, ecx
+```
+
 ## 2. 真正的无条件开启wifi热点！
 ![Screenshot 2023-08-27 161337](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/1982e92d-dd62-43ca-8bd9-15625470a8e5)
 ![Screenshot 2023-08-27 161246](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/e759a80c-bfc9-4a8f-8233-d8d5178f71d0)
