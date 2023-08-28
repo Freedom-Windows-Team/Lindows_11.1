@@ -736,3 +736,67 @@ Since Lindows 11.1 modifies many critical system files, this may cause you getti
 If you have any online games installed on your computer, be sure to test them now in a virtual machine to see how they work in Lindows 11.1 to prevent the unexpected!
 
 Most single player games don't have very strict anti-cheat systems, so if you play a lot of single player games like I do then you can stop worrying about this.
+
+# This is cool, but is it legal?
+
+To avoid copyright related issues, this project will be released as a patch and will not modify any windows activation related content.
+
+Microsoft created Windows, so Microsoft holds the copyright to Windows, which I won't violate.
+
+But the copyright of this patch, is mine!
+
+The way to apply the patch is as follows:
+
+First go [here](https://archive.org/download/windows-11_21h2-22000-318/Windows%2011.iso) to download the official original Microsoft Windows 11 21H1 installation image.
+
+Download the latest Lindows 11.1 patch from the release section.
+
+Place the original windows 11 iso in the same directory with Patch.bat and execute Patch.bat.
+
+After a while, you will obtain the full Lindows 11.1 installation image.
+
+## How to install Lindows 11.1 on your own computer
+
+## Method 1: Fresh Installation (Recommended)
+
+1. Before you start, go to the Device Manager and look for the model of the various hardware used on your computer, especially for your network card and graphics card.
+2. Google the corresponding driver installation package and place it anywhere except the C drive.
+3. Install PowerISO.
+4. Start Trial, but the Start Trial button has an annoying countdown timer and will not let you click it until 5 seconds after the software opens.
+   To skip it, click Enter registration code, then click Continue trial version in the lower left corner of the enter registration code screen. 
+5. Open the Lindows 11.1 installation image in PowerISO. 
+6. Insert a blank USB flash drive.
+7. Click Create Bootable USB Drive under Tools. 
+8. Select your USB drive in Destination. 
+9. Click Start in the lower right corner. 
+10. Wait for the writing to complete.
+11. Turn off your computer.
+12. Press F2 at boot time to enter BIOS setup. 
+13. Use your phone to search for how to enable Legacy Boot for your computer's brand. 
+14. Follow the tutorial to enable Legacy Boot and configure it to use Legacy mode first. (Note: I have not yet tested the behavior of Windows 11.1 in UEFI mode and cannot be sure if it will work properly.)
+15. Turn the computer off.
+16. Press F12 at boot time to access the boot menu.
+17. Choose to boot from your USB flash drive. (Be careful to avoid any boot entries with the word UEFI in them!)
+18. When you see "Press any key to boot from CD/DVD......", press any key on your keyboard immediately.
+    It doesn't matter which key you press, but something must be pressed, and before this text disappears!
+19. If all of the above steps have been performed correctly, you will see four blue squares in the center of the screen and a small white circle spinning underneath.
+    If you see your computer's manufacturer's logo, that means you did something wrong in step 14.
+20. Wait a few moments and you will be taken to the system installation screen.
+21. Click Next.
+22. If you have a Windows 11 Pro key, enter it. Otherwise, click "I don't have a product key" in the lower right corner.
+23. Click Custom.
+24. Locate the partition where your C drive is located and delete it.
+25. Locate the System Reserved partition (if any) and click Delete.
+26. Locate the Recovery partition (if any) and click Delete.
+27. Select "Unallocated Sapce" and click Next to start the installation.
+    In some cases, an installation error may occur.
+    Don't worry, reboot your computer and repeat the process from step 15 and you will be able to resolve 90% of these installation errors.
+28. Go to your desktop, open File Explorer and find the driver packages that you have downloaded.
+29. Enjoy!
+
+## Option 2: Upgrade from Windows to Lindows 11.1
+
+1. Follow the fresh install tutorial above from step 3 and stop after step 22.
+2. Click Upgrade.
+3. Wait for the installation to complete.
+4. Enjoy!
