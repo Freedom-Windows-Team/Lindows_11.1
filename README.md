@@ -622,3 +622,10 @@ Have the same freedom as Linux, but also have the same attractive system interfa
 Big thanks to Rectify 11 for providing Lindows with an extremely stunning system theme. https://github.com/Rectify11/Installer
 
 Thanks to WindowFX for giving Lindows 11.1 a very attractive window animation effect.
+
+## 12. A super high efficiency comparable to Linux!
+
+I have stripped down a lot of unnecessary components in windows to dramatically improve the system's running efficiency.
+
+There are only 61 active processes when the computer is idle, and the memory usage is only 1.3GB.
+
