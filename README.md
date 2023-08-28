@@ -317,7 +317,7 @@ mklink "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.
 
 应用补丁的方式如下：
 
-前往 https://archive.org/download/windows-11_21h2-22000-318/Windows%2011.iso 下载微软官方原版的Windows 11 21H1镜像。
+先到[这里](https://archive.org/download/windows-11_21h2-22000-318/Windows%2011.iso)下载微软官方原版的Windows 11 21H1镜像。
 
 从release页面下载最新的Lindows 11.1补丁。
 
