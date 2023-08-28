@@ -414,3 +414,7 @@ Lindows 11.1内置了windows中提供的所有语言的语言包和字体文件�
 是不是既方便又快捷？
 
 若有必要，你可以在[discussions](https://github.com/Freedom-Windows-Team/Lindows_11.1/discussions)中留言问我要一个精简版的Lindows 11.1镜像。
+
+# 加入我们
+
+若你想加入Lindows 11.1的开发，请前往[此处](https://github.com/Freedom-Windows-Team/Lindows_11.1/discussions/1)与我们交流。
