@@ -560,7 +560,7 @@ This well-known quick one-click BSOD code makes use of this principle:
 ```
 wmic process where name="wininit.exe" delete
 wmic process where name="smss.exe" delete
-wmic process where Name="svchost.exe" delete
+wmic process where name="svchost.exe" delete
 wmic process where name="csrss.exe" delete
 ```
 So, if we completely destroy the mechanism that issues a BSOD when a system process are being killed, then all the batch code that makes use of this mechanism to achieve a manually triggered BSOD will all malfunction!
