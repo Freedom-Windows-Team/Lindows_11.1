@@ -283,7 +283,7 @@ mklink "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.
 
 在Windows原本的安全政策被几乎完全破坏的系统中，Lindows 11.1将会拥有比其他任何基于NT技术构建的操作系统更多的安全漏洞。
 
-完全依靠Lindows 11.1自带的一个火绒网络安全肯定是行不通的。
+完全依靠Lindows 11.1自带的一个火绒安全软件肯定是行不通的。
 
 毕竟现在全世界那么多台装了windows的电脑当中有几台是用的Lindows 11.1？
 
@@ -647,7 +647,7 @@ So, to prevent people from giving you feedback such as, "They've only made a UI 
 
 If it detects that the user is not using Lindows 11.1, it will automatically open this Github repository and direct the user to download and install the correct operating system to run your software. 
 
-**Note:** **The following content is important!**
+**Note:** **Heads up, the following content is very important!**
 
 In Lindows 11.1, installation packages for applications are stored in *.BAT format.
 
@@ -698,3 +698,60 @@ Subsequently, just paste the code directly into the installer.
 Note that there is a limit on the length of a single line of text in the batch program, and the part that exceeds the limit will not be read by CMD.
 
 If you can't write back properly after conversion, please try to replace all ```&@ECHO.``` with ```\n@ECHO.```.
+
+# Notices
+
+Before using Lindows 11.1, please make sure that you have basic manual antivirus capabilities!
+
+In a system where all Windows's original security policies have been almost completely broken, Lindows 11.1 will have more security vulnerabilities than any other NT-based operating system.
+
+Relying entirely on Huorong Internet Security(火绒安全软件) that comes with Lindows 11.1 is certainly not going to work.
+
+How many of the computers in the world that have Windows installed are using Lindows 11.1?
+
+Therefore, it is impossible for Huorong to make any preparations for the additional security vulnerabilities in Windows 11.1!
+
+You need to take care of these vulnerabilities yourself.
+
+Not to mention that Lindows 11.1 didn't even exist when I embedded Huorong into Lindows 11.1!
+
+If Huorong really wanted to do this adaptation, wouldn't it have to go with an internal beta version of Lindows 11.1 that was leaked in an unorthodox way?
+
+
+# Caution
+
+Before using Lindows 11.1, please make sure that you have basic manual antivirus capabilities!
+
+In a system where all Windows's original security policies have been almost completely broken, Lindows 11.1 will have more security vulnerabilities than any other NT-based operating system.
+
+Relying entirely on Huorong Internet Security(火绒安全软件) that comes with Lindows 11.1 is certainly not going to work.
+
+How many of the computers in the world that have Windows installed are using Lindows 11.1?
+
+Therefore, it is impossible for Huorong to make any preparations for the additional security vulnerabilities in Windows 11.1!
+
+You need to take care of these vulnerabilities yourself.
+
+Not to mention that Lindows 11.1 didn't even exist when I embedded Huorong into Lindows 11.1!
+
+If Huorong really wanted to do this adaptation, wouldn't it have to go with an internal beta version of Lindows 11.1 that was leaked in an unorthodox way?
+
+.
+
+Of course, this is not a problem that we need to be worried too much about before Lindows 11.1 becomes popularized to a certain extent.
+
+As I said, how many computers in the world that have Windows installed are using Lindows 11.1?
+
+Therefore, not a single idiot hacker is going to design a malware specifically for Lindows 11.1 in order to hack a single-digit number of Windows users.
+
+**Note:** **When I say don't have to worry too much about it doesn't mean don't worry about it at all!!!**
+
+.
+
+**WARNING: Attention gamers! ** .
+
+Since Lindows 11.1 modifies many critical system files, this may cause you getting baned by anti-cheat systems in a number of games.
+
+If you have any online games installed on your computer, be sure to test them now in a virtual machine to see how they work in Lindows 11.1 to prevent the unexpected!
+
+Most single player games don't have very strict anti-cheat systems, so if you play a lot of single player games like I do then you can stop worrying about this.
