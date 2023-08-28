@@ -252,6 +252,7 @@ echo.IconIndex=0 >>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Prog
 echo.IconFile=C:\Path\To\Program.exe >>"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.URL"
 方法2：
 mklink "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.exe" "C:\Path\To\Program.exe"
+
 ```
 
 关于修复与卸载的批处理脚本可以用Ibat界面上方的快速启动中的ECHO generator工具进行转换。
@@ -286,7 +287,8 @@ mklink "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.
 
 火绒要是真的要做适配岂不是要拿通过非正当途径泄露出去的Lindows 11.1内部测试版本去做适配？
 
- 
+###  
+###  
 
 当然，这个问题在Lindows 11.1普及到一定程度之前并不需要过多的担心。
 
@@ -295,6 +297,17 @@ mklink "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.
 因此，也不会有哪个傻瓜黑客为了黑掉个位数级别的windows用户去专门为Lindows 11.1设计病毒程序。
 
 **注意：我说不必过多的担心并不意味着不用担心！！！**
+
+###  
+###  
+
+**警告：游戏玩家们请注意！**
+
+由于Lindows 11.1修改了许多关键的系统文件，这可能会使你被众多游戏中的反作弊系统屏蔽。
+
+若您的电脑上安装有任何联机游戏，请务必现在虚拟机中测试一下它们在Lindows 11.1中工作的情况，以防止意外发生！
+
+大多数的单机游戏都没不会有很变态的反作弊系统，因此如果你跟我一样玩单机游戏比较多那就可以不用担心这个问题了。
 
 # 这是酷的，但它合法吗？
 
