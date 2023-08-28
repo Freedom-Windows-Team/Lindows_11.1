@@ -427,14 +427,11 @@ Tip: Lindows 11.1 is not yet finished, this document only serves as a preview. F
 
 **Please validate the only official download address: https://github.com/Freedom-Windows-Team/Lindows_11.1/releases**
 
-**Anyone is allowed to make their own customized version of Windows based on Lindows 11.1, but they must clearly indicate in Readme that they are using my work and they must clearly inform the user that the file they are downloading is not the original Lindows 11.1 officially released by Freedom Windows Team!
+**Anyone is allowed to make their own customized version of Windows based on Lindows 11.1, but they must clearly indicate in Readme that they are using my work and they must clearly inform the user that the file they are downloading is not the original Lindows 11.1 officially released by Freedom Windows Team!**  
 
-**  
-
-Are you frustrated with all those limitations in Windows?
+Are you frustrated with all those stuped restrictions in Windows?
 
 No problem, I'll step in!
-
 
 Lindows 11.1, developed by myself, is a perfect hack for the many annoying and overbearing behaviors in Windows! It gives the computer user absolute control over his/her device!
 
