@@ -819,7 +819,7 @@ Switching to any other languages is done in the same way.
 
 # Image size issues
 
-You claim to simplify windows by removing unnecessary components, but why is the size of the Lindows iso even larger than the original?
+You've claimed to simplify windows by removing unnecessary components, but why is the size of the Lindows iso even larger than the original?
 A backward simplification?
 
 In order to save time downloading language packs and input methods. 
