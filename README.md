@@ -569,4 +569,6 @@ At the time I was stuck, the friendly 任务管理器TSK provides us with a very
 
 It can be used to change a system process to an ordinary process, or change an ordinary process to a system process very easily.
 
-Just use it to simply modify the process type, then you will be able to perfectly kill the system critical processes without getting a BSOD!
+Just use it to modify the process type, then you will be able to perfectly kill the system critical processes without getting a BSOD!
+
+And at the same time, the batch code that achieves manual triggering the BSOD by killing the system processes also works properly.
