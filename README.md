@@ -642,9 +642,9 @@ All customers that use your software will have to install Lindows 11.1 as well!
 
 So, to prevent people from giving you feedback such as, "They've only made a UI for scamming, just forget about it", you need to add a detection module to the installer.
 
-If it detects that the user is not using Lindows 11.1, it will automatically open this Github repository and direct the user to download and install the correct operating system to run your software.
+If it detects that the user is not using Lindows 11.1, it will automatically open this Github repository and direct the user to download and install the correct operating system to run your software. 
 
-**Note: The following contents are important! **
+**Note:** **The following content is important!**
 
 In Lindows 11.1, installation packages for applications are stored in *.BAT format.
 
@@ -657,7 +657,7 @@ To make such an installation package, follow these steps:
    ![image](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/825a701b-e2ab-421b-b8cf-1a191585ad81)
 5. Add ```Powershell Expand-Archive -LiteralPath [zip file name] -DestinationPath [decompression path]``` to the third line.
 6. To add the Lindows detector, insert the following code after the first line:
-   ``
+   ```
    Detection module not yet complete
    ```
 7. If necessary, you can perform actions such as creating a start menu shortcut, control panel uninstall entry, etc. before the third line.
