@@ -145,7 +145,7 @@ Windows 11 总是喜欢在后台偷偷发各种调试数据给各个厂商。
 
 在此大力感谢Rectify 11为Lindows提供极为惊艳的系统主题。https://github.com/Rectify11/Installer
 
-感谢Stardock开发的神器WindowFX给予Lindows极为诱人的窗口动画效果。https://www.stardock.com/products/windowfx/
+感谢Stardock开发的神器WindowFX给予Lindows 11.1极为诱人的窗口动画效果。https://www.stardock.com/products/windowfx/
 
 ## 11. 与Linux相媲美的超快运行效率！
 
@@ -164,7 +164,16 @@ Windows 11 总是喜欢在后台偷偷发各种调试数据给各个厂商。
 **若您想为Lindows 11.1开发软件，请仔细阅读本段内容**
 
 在Lindows 11.1中做软件开发必然会比Windows轻松很多，少了很多烦人的限制。
+
 尤其是对UWP或驱动的开发者而言。
+
 但以此带来的副作用便是你将无法在任何其他基于NT技术构建的操作系统上运行你的程序。
+
 所有使用你的软件的客户也都要安装Lindows 11.1
+
+所以，为防止有人向你反馈诸如“做了套UI骗人的，散了散了。”之类的内容，你需要在安装程序中添加一个检测模块。
+
+在检测到用户使用的不是Lindows 11.1时自动打开此Github仓库引导用户下载安装正确的操作系统来运行你的软件。
+
+**注意：以下是重要的内容！**
 
