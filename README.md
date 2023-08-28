@@ -3,6 +3,7 @@
 提示：Lindows 11.1 尚未完工，此文档仅起到预告的作用。开发过程中随时可能会对功能进行增减，请以最终成品为准。
 
 **请认准唯一官方下载地址：https://github.com/Freedom-Windows-Team/Lindows_11.1/releases**
+
 **允许任何人以Lindows 11.1为基础制作属于自己的定制版Windows，但是必须在Readme中明确标明使用了我的作品且必须明确告知用户他们下载的文件不是由Freedom Windows Team官方发行的原版Lindows 11.1！**
 
 ##  
