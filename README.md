@@ -585,3 +585,24 @@ It is well known that you can install unsigned UWP apps via powershell command.
 But this method is far too complicated.
 
 Wouldn't it be better if we create a file association for it, and double-click on it will automatically call powershell to bypass the signature check?
+
+## 7. Unsigned powershell scripts are allowed out of the box!
+You can allow the execution of unsigned scripts by entering a command in powershell.
+But it's very complicated and extremely tricky to set up. 
+
+In order to simplify the process, I simply configured this option before the system is packaged, so that users can take a less complicated path.
+
+## 8. Completely uninstall the pitiful Windows Defender!
+
+windows defender never asks the user's opinion before dealing with dangerous programs and has a very high rate of false positives reporting!
+
+What's more, uninstalling it is a pain in the ass!
+
+After a lot of research, I finally found a methog to get rid of this fucking program!
+
+Now we could finally get rid of it!
+
+## 9. Strictly prohibit Lindows 11.1 from sending any debugging data to anyone without the user's awareness!
+
+Windows 11 always likes to secretly send debugging data to various vendors in the background.
+Without mentioning slowing down the system speed, such behavior is extremely disrespectful to the user's privacy!
