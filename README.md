@@ -825,20 +825,20 @@ A backward simplification?
 In order to save time downloading language packs and input methods. 
 Lindows 11.1 has got all language packs and font files for all the languages provided in windows built-in, just like macOS.
 
-In addition to that, we have built-in quite a few third-party applications, resulting in a large image that is even larger than the original. 
+In addition to that, we have embedded quite a few third-party applications, resulting in a file size that is even larger than the original. 
 
-However, unlike Microsoft's approach of bundling software, we were extremely conscious of the cleanliness of the system while bundling third-party applications.
+However, unlike Microsoft's approach of bundling software, we were extremely conscious of the cleanliness of our system.
 
-There's a lot of software that I think is great, but not everyone in the world needs, available as installers in the system.
+The apps that I think are great but not everyone in the world needs, will be available as installers in the system.
 
 They just stay there quietly, not asking no answering. 
-But once you ask, they respond quickly!
+But once you ask, they'll immediately respond!
 
-Moreover, it supports batch deletion with a single click, so users don't need to manually click on them to remove them one by one.
+Moreover, it supports batch removal with a single click, so users don't need to manually click on them one by one to remove them.
 
 Isn't it convenient?
 
-If necessary, you can leave a message in [discussions](https://github.com/Freedom-Windows-Team/Lindows_11.1/discussions) to ask me for a compact version of Lindows 11.1 image.
+If needed, you can leave a message in [discussions](https://github.com/Freedom-Windows-Team/Lindows_11.1/discussions) to ask me for a compact version of Lindows 11.1 image.
 
 # Join us
 
