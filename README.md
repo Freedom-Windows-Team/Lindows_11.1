@@ -717,25 +717,6 @@ Not to mention that Lindows 11.1 didn't even exist when I embedded Huorong into 
 
 If Huorong really wanted to do this adaptation, wouldn't it have to go with an internal beta version of Lindows 11.1 that was leaked in an unorthodox way?
 
-
-# Caution
-
-Before using Lindows 11.1, please make sure that you have basic manual antivirus capabilities!
-
-In a system where all Windows's original security policies have been almost completely broken, Lindows 11.1 will have more security vulnerabilities than any other NT-based operating system.
-
-Relying entirely on Huorong Internet Security(火绒安全软件) that comes with Lindows 11.1 is certainly not going to work.
-
-How many of the computers in the world that have Windows installed are using Lindows 11.1?
-
-Therefore, it is impossible for Huorong to make any preparations for the additional security vulnerabilities in Windows 11.1!
-
-You need to take care of these vulnerabilities yourself.
-
-Not to mention that Lindows 11.1 didn't even exist when I embedded Huorong into Lindows 11.1!
-
-If Huorong really wanted to do this adaptation, wouldn't it have to go with an internal beta version of Lindows 11.1 that was leaked in an unorthodox way?
-
 .
 
 Of course, this is not a problem that we need to be worried too much about before Lindows 11.1 becomes popularized to a certain extent.
@@ -748,7 +729,7 @@ Therefore, not a single idiot hacker is going to design a malware specifically f
 
 .
 
-**WARNING: Attention gamers! ** .
+**WARNING: Attention for gamers! ** .
 
 Since Lindows 11.1 modifies many critical system files, this may cause you getting baned by anti-cheat systems in a number of games.
 
