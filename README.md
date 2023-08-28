@@ -125,6 +125,7 @@ winload.exe和winload.efi还需要复制到C:\Windows\System32\Boot中把那个�
 做到了真正的永不宕机！
 
 ## 4. 杀系统进程不蓝屏！
+![image](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/2b5a0c71-caf5-46c0-8202-e5fd33ce94de)
 
 Windows为了不让用户杀掉系统关键进程也是用心良苦啊！
 
