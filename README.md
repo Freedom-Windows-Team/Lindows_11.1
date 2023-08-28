@@ -429,6 +429,8 @@ Tip: Lindows 11.1 is not yet finished, this document only serves as a preview. F
 
 **Anyone is allowed to make their own customized version of Windows based on Lindows 11.1, but they must clearly indicate in Readme that they are using my work and they must clearly inform the user that the file they are downloading is not the original Lindows 11.1 officially released by Freedom Windows Team!**  
 
+##  
+
 Are you frustrated with all those stuped restrictions in Windows?
 
 No problem, I'll step in!
