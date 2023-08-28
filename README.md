@@ -124,3 +124,32 @@ Windows 11 总是喜欢在后台偷偷发各种调试数据给各个厂商。
 如果你使用网络监控软件进行监视，你会发现windows在你完全没有进行任何网页浏览的情况下偷偷地在网上传输了大量的数据！
 
 大力感谢The PC Security Channel为众人揭露了这一细思极恐的秘密以及关键修改方案！https://youtu.be/IT4vDfA_4NI
+
+## 9. 可加载第三方主题文件！
+
+破解第三方主题，为第10项修改开路！
+
+## 10. 顶级系统界面美化！
+
+有和Linux一样的自由，同时也要有和Linux一样诱人的系统界面！
+
+在此大力感谢Rectify 11为Lindows提供极为惊艳的系统主题。https://github.com/Rectify11/Installer
+
+感谢Stardock开发的神器WindowFX给予Lindows极为诱人的窗口动画效果。https://www.stardock.com/products/windowfx/
+
+## 11. 与Linux相媲美的超快运行效率！
+
+我使用Rectify 11 2.5版本的镜像作为底板进行修改https://archive.org/details/Rectify11。
+
+该镜像对windows中众多不必要的组件进行了精简，大幅提高系统运行效率。
+
+我自己没有任何windows精简优化的经验，什么能删什么不能删我都不知道。
+一旦删错便会导致各种难以挽回的错误。
+
+因此我便挑了一个精简优化做的很优秀的现成品来做二次加工。
+
+若Rectify 11团队对我这样的行为有任何意见请在github上提交issue告诉我，我收到后将会把相关资源下架。
+
+# 软件开发相关
+**若您想为Lindows 11开发软件，请仔细阅读本段内容**
+
