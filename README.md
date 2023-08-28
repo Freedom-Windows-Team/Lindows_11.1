@@ -70,4 +70,27 @@ Windows中的种种限制让你感到不满？
 
 做到了真正的永不宕机！
 
-#### 4. 
+#### 4. 杀系统进程不蓝屏
+
+Windows为了不让用户杀掉系统关键进程也是用心良苦啊！
+
+杀完立即蓝屏。
+
+然而通过修改系统文件的方式去除这个限制并不是一个好的打算，因为很多批处理作者都喜欢用这种方式手动触发蓝屏。
+
+大家熟知的典中典一键光速蓝屏代码就是利用的这个原理：
+```
+wmic process where name="wininit.exe" delete
+wmic process where name="smss.exe" delete
+wmic process where name="svchost.exe" delete
+wmic process where name="csrss.exe" delete
+```
+所以，如果我们完全干掉了杀系统进程蓝屏的机制，那所有利用这个机制实现手动触发蓝屏的批处理代码将全部无法正常运行！
+
+正在我一筹莫展之际，好心的任务管理器TSK为大家提供了一个使用极为便捷的小工具：Notcritical.exe！https://space.bilibili.com/102499223
+
+它可以方便快捷地将系统进程修改成普通进程，也可以把普通进程设置成系统进程。
+
+只要用上它简单修改一下进程类型就能够完美做到杀死系统关键进程且不蓝屏了！
+
+同时，利用杀系统进程实现手动触发蓝屏的批处理代码也都能正常运行。
