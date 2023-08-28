@@ -62,7 +62,7 @@ https://www.bilibili.com/read/cv20303238/
 hfiref0x的UPGDSED开源项目：
 https://github.com/hfiref0x/UPGDSED/blob/master/src/main.c
 
-我自己的最终方案：
+我自己的最终方案，放出来让各位少走点弯路：
 ```
 在C:\Windows\System32中找到如下的几个文件放入IDA修改
 （IDA下载地址：https://www.hex-rays.com/ida-pro）
