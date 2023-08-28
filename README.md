@@ -727,7 +727,7 @@ Therefore, not a single idiot hacker is going to design a malware specifically f
 
 .
 
-**WARNING: Attention for gamers! ** .
+**WARNING:** **Attention for gamers!**
 
 Since Lindows 11.1 modifies many critical system files, this may cause you getting baned by anti-cheat systems in a number of games.
 
