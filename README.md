@@ -75,11 +75,11 @@ https://github.com/hfiref0x/UPGDSED/blob/master/src/main.c
 
 winload.exe:
 ImgpValidateImageHash 函数开头改成 33 C0 C3
-OslInitiallizeCodeIntegrity 函数开头改成 B0 01 C3
+OslInitializeCodeIntegrity 函数开头改成 B0 01 C3
 
 winload.efi:
 ImgpValidateImageHash 函数开头改成 33 C0 C3
-OslInitiallizeCodeIntegrity 函数开头改成 B0 01 C3
+OslInitializeCodeIntegrity 函数开头改成 B0 01 C3
 
 ntoskrnl.exe：
 SeVelidateImageData 将函数内出现的首个mov eax, 0C0000428h改成mov eax, 0
@@ -498,11 +498,11 @@ In C:\Windows\System32, find the following files and put them into the IDA for d
 
 winload.exe: 
 Changed beginning of ImgpValidateImageHash to 33 C0 C3
-Changed beginning of OslInitiallizeCodeIntegrity to B0 01 C3
+Changed beginning of OslInitializeCodeIntegrity to B0 01 C3
 
 winload.efi: 
 Changed beginning of ImgpValidateImageHash to 33 C0 C3
-Changed beginning of OslInitiallizeCodeIntegrity to B0 01 C3
+Changed beginning of OslInitializeCodeIntegrity to B0 01 C3
 
 ntoskrnl.exe:
 Change the first mov eax, 0C0000428h that appears within SeVelidateImageData to mov eax, 0
