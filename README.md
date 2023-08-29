@@ -68,33 +68,6 @@ https://www.bilibili.com/read/cv20303238/
 hfiref0x的UPGDSED开源项目：
 https://github.com/hfiref0x/UPGDSED/blob/master/src/main.c
 
-我自己的最终方案，放出来让各位少走点弯路：
-```
-在C:\Windows\System32中找到如下的几个文件放入IDA修改
-（IDA下载地址：https://www.hex-rays.com/ida-pro）
-
-winload.exe:
-ImgpValidateImageHash 函数开头改成 33 C0 C3
-OslInitializeCodeIntegrity 函数开头改成 B0 01 C3
-
-winload.efi:
-ImgpValidateImageHash 函数开头改成 33 C0 C3
-OslInitializeCodeIntegrity 函数开头改成 B0 01 C3
-
-ntoskrnl.exe：
-SeValidateImageData 将函数内出现的首个mov eax, 0C0000428h改成mov eax, 0
-SepInitializeCodeIntegrity 将函数内出现的首个mov ecx, edi改成xor ecx, ecx
-
-打开LordPE并点击PE Editor（https://www.softpedia.com/get/Programming/File-Editors/LordPE.shtml）
-选取刚刚修改过的文件中的任意一个
-点击Checksum旁边的问号
-点击Save
-点击OK
-对刚刚修改过的剩下两个文件重复上述操作修复校验和
-
-winload.exe和winload.efi还需要复制到C:\Windows\System32\Boot中把那个里面的两个文件也替换掉。
-```
-
 ## 2. 真正的无条件开启wifi热点！
 ![Screenshot 2023-08-27 161337](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/1982e92d-dd62-43ca-8bd9-15625470a8e5)
 ![Screenshot 2023-08-27 161246](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/e759a80c-bfc9-4a8f-8233-d8d5178f71d0)
@@ -490,33 +463,6 @@ https://www.bilibili.com/read/cv20303238/
 
 hfiref0x's UPGDSED open source project:
 https://github.com/hfiref0x/UPGDSED/blob/master/src/main.c
-
-My own ultimate solution, put it out for you guys to waste less time:
-```
-In C:\Windows\System32, find the following files and put them into the IDA for disassembling
-(IDA download link: https://www.hex-rays.com/ida-pro)
-
-winload.exe: 
-Changed beginning of ImgpValidateImageHash to 33 C0 C3
-Changed beginning of OslInitializeCodeIntegrity to B0 01 C3
-
-winload.efi: 
-Changed beginning of ImgpValidateImageHash to 33 C0 C3
-Changed beginning of OslInitializeCodeIntegrity to B0 01 C3
-
-ntoskrnl.exe:
-Change the first mov eax, 0C0000428h that appears within SeValidateImageData to mov eax, 0
-Change the first mov ecx, edi that appears within SepInitializeCodeIntegrity to xor ecx, ecx.
-
-Open LordPE and click on PE Editor (https://www.softpedia.com/get/Programming/File-Editors/LordPE.shtml)
-Select any of the files you have just edited.
-Click on the question mark next to Checksum.
-Click Save
-Click OK
-Repeat the above procedure for the remaining two files you've just modified.
-
-winload.exe and winload.efi need to be copied also to C:\Windows\System32\Boot and replace the two files in there as well.
-```
 
 ## 2. Real unconditional enabling of wifi hotspot!
 ![Screenshot 2023-08-27 161337](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/1982e92d-dd62-43ca-8bd9-15625470a8e5)
