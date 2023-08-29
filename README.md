@@ -238,9 +238,9 @@ Windows 11 总是喜欢在后台偷偷发各种调试数据给各个厂商。
    ![image](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/825a701b-e2ab-421b-b8cf-1a191585ad81)
 5. 在第三行添加上```Powershell Expand-Archive -LiteralPath [压缩文件名称] -DestinationPath [解压路径]```。
 6. 若要添加Lindows检测器，请在第一行之后插入下列代码：
-   ```
-   检测模块尚未完工
-   ```
+```
+检测模块尚未完工
+```
 7. 若有必要，可选择在第三行之后执行创建开始菜单快捷方式，控制面板卸载条目等操作。
 ```
 控制面板添加卸载条目：
@@ -658,9 +658,9 @@ To make such an installation package, follow these steps:
    ![image](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/825a701b-e2ab-421b-b8cf-1a191585ad81)
 5. Add ```Powershell Expand-Archive -LiteralPath [zip file name] -DestinationPath [decompression path]``` to the third line.
 6. To add the Lindows detector, insert the following code after the first line:
-   ```
-   Detection module not yet complete
-   ```
+```
+Detection module not yet complete
+```
 7. If necessary, you can perform actions such as creating a start menu shortcut, control panel uninstall entry, etc. after the third line.
 ```
 Uninstall entry in control panel：
