@@ -68,6 +68,12 @@ https://www.bilibili.com/read/cv20303238/
 hfiref0x的UPGDSED开源项目：
 https://github.com/hfiref0x/UPGDSED/blob/master/src/main.c
 
+Booty：
+http://alexhixon.com/projects/booty/booty.html
+
+2013goldenegg：
+http://bbs.wuyou.net/forum.php?mod=viewthread&action=printable&tid=298603
+
 ## 2. 真正的无条件开启wifi热点！
 ![Screenshot 2023-08-27 161337](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/1982e92d-dd62-43ca-8bd9-15625470a8e5)
 ![Screenshot 2023-08-27 161246](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/e759a80c-bfc9-4a8f-8233-d8d5178f71d0)
@@ -455,14 +461,20 @@ Fangyzhai：
 http://bbs.wuyou.net/forum.php?mod=viewthread&tid=433012
 (most helpful!!!)
 
-菜菜：
+菜菜:
 https://zhuanlan.zhihu.com/p/590181211
 
-金典教授：
+金典教授:
 https://www.bilibili.com/read/cv20303238/
 
 hfiref0x's UPGDSED open source project:
 https://github.com/hfiref0x/UPGDSED/blob/master/src/main.c
+
+Booty:
+http://alexhixon.com/projects/booty/booty.html
+
+2013goldenegg:
+http://bbs.wuyou.net/forum.php?mod=viewthread&action=printable&tid=298603
 
 ## 2. Real unconditional enabling of wifi hotspot!
 ![Screenshot 2023-08-27 161337](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/1982e92d-dd62-43ca-8bd9-15625470a8e5)
