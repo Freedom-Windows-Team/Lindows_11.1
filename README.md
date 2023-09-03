@@ -1,5 +1,3 @@
-# **Lindows 11.1** 
-
 # News: 
 
 **09/03/2023 -** Lindows 11.1 stealth mode comming soon! Only applications approved by YOU can run on your device! 
@@ -13,6 +11,8 @@ All signing actions will be recorded and can be reviewed. So no one else except 
 Note: The stealth mode is currently only recommended for advanced users who care very much about security and freedom at the same time. Using this
 
 **09/03/2023 -** Almost ready! We've successfully made every components on Lindows 11.1 working well, it's now time for assembling them together and pack everything into a working ISO installation image! 
+
+# **Lindows 11.1** 
 
 ### [Don't speak Chinese? Come over here! ](https://github.com/Freedom-Windows-Team/Lindows_11.1/tree/main#english-readme)
 
