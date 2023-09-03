@@ -31,7 +31,7 @@ Windows中的种种限制让你感到不满？
 
 # 修改内容：
 
-## 1. 真正的永久禁用驱动程序签名强制
+## 1. 彻底根治驱动签名强制！
 ![Screenshot 2023-08-27 151259](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/b9d0a844-b753-42eb-a90a-f9f644e0f1fb)
 
 未签名的驱动程序不让安装？岂有此理？？？
@@ -83,7 +83,7 @@ https://computernewb.com/wiki/How_to_debomb_Windows_10/Server_2016_betas
 2013goldenegg：
 http://bbs.wuyou.net/forum.php?mod=viewthread&action=printable&tid=298603
 
-## 2. 真正的无条件开启wifi热点！
+## 2. 无条件开启wifi热点！
 ![Screenshot 2023-08-27 161337](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/1982e92d-dd62-43ca-8bd9-15625470a8e5)
 ![Screenshot 2023-08-27 161246](https://github.com/Freedom-Windows-Team/Lindows_11.1/assets/143358583/e759a80c-bfc9-4a8f-8233-d8d5178f71d0)
 
