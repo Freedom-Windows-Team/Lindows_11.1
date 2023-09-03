@@ -323,6 +323,12 @@ mklink "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.
 
 # 如何在自己的电脑上安装Lindows 11.1
 
+**提示：我把安装的每一个步骤都写的很详细，为了给刚接触计算机没多久的新手提供便利。所以步骤虽然看上去很多，但实际做起来并不复杂。**
+
+**简要概括下来其实也就是三步：制作可启动U盘，启用Legacy emulation，安装Lindows 11.1。**
+
+**对于已经会自己给电脑安装操作系统的人来说其实只需要看一下第12步到第15步就可以了。**
+
 ## 方案1：全新安装（推荐）
 
 1. 在开始之前，先去设备管理器中查询电脑所使用的各种硬件的型号，尤其是网卡和显卡。
@@ -339,7 +345,7 @@ mklink "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\My Program\Program.
 11. 将电脑关机。
 12. 开机的同时狂按F2进入BIOS设置。
 13. 用手机搜索你电脑的品牌开启Legacy Boot的方式。
-14. 按照教程操作开启Legacy Boot并设置优先使用Legacy模式。（注：本人尚未在UEFI模式中测试过Lindows 11.1的表现，无法确定是否能够正常工作。）
+14. 按照教程操作开启Legacy Boot并设置优先使用Legacy模式。
 15. 将电脑关机。
 16. 开机的同时狂按F12进入启动菜单。
 17. 选择从你的U盘启动。（注意避开任何带有UEFI字样的启动条目！）
@@ -686,7 +692,7 @@ Relying entirely on Huorong Internet Security(火绒安全软件) that comes wit
 
 How many of the computers in the world that have Windows installed are using Lindows 11.1?
 
-Therefore, it is impossible for Huorong to make any preparations for the additional security vulnerabilities in Windows 11.1!
+Therefore, it is impossible for Huorong to make any preparations for the additional security vulnerabilities in Lindows 11.1!
 
 You need to take care of these vulnerabilities yourself.
 
@@ -734,6 +740,12 @@ After a while, you will obtain the full Lindows 11.1 installation image.
 
 # How to install Lindows 11.1 on your own computer
 
+**Note: I've written each step of the installation in detail to make it easier for newbies who haven't had much time with computers. So although the steps seem to be a lot, it's not really complicated to follow.**
+
+**In a nutshell, it's really just three steps: make a bootable USB flash drive, enable Legacy emulation, and install Lindows 11.1.**
+
+**For those who already know how to install an operating system on a computer on their own actually only need to read steps 12 to 15.**
+
 ## Method 1: Fresh Installation (Recommended)
 
 1. Before you start, go to the Device Manager and look for the model of the various hardware used on your computer, especially for your network card and graphics card.
@@ -750,7 +762,7 @@ After a while, you will obtain the full Lindows 11.1 installation image.
 11. Turn off your computer.
 12. Press F2 at boot time to enter BIOS setup. 
 13. Use your phone to search for how to enable Legacy Boot for your computer's brand. 
-14. Follow the tutorial to enable Legacy Boot and configure it to use Legacy mode first. (Note: I have not yet tested the behavior of Windows 11.1 in UEFI mode and cannot be sure if it will work properly.)
+14. Follow the tutorial to enable Legacy Boot and configure it to use Legacy mode first. 
 15. Turn the computer off.
 16. Press F12 at boot time to access the boot menu.
 17. Choose to boot from your USB flash drive. (Be careful to avoid any boot entries with the word UEFI in them!)
