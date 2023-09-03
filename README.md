@@ -491,8 +491,8 @@ https://www.bilibili.com/read/cv20303238/
 hfiref0x's UPGDSED open source project:
 https://github.com/hfiref0x/UPGDSED/blob/master/src/main.c
 
-Booty:
-http://alexhixon.com/projects/booty/booty.html
+Computernewb Wiki:
+https://computernewb.com/wiki/How_to_debomb_Windows_10/Server_2016_betas
 
 2013goldenegg:
 http://bbs.wuyou.net/forum.php?mod=viewthread&action=printable&tid=298603
