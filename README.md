@@ -10,7 +10,7 @@
 
 ##
 
-## 正文：
+# 正文：
 
 **通知：Lindows 11.1仅支持Legacy启动，新电脑需要在BIOS设置中启用Legacy emulation并选择优先使用Legacy启动才能正常安装Lindows 11.1。**
 
