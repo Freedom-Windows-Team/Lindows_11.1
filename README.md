@@ -2,15 +2,17 @@
 
 ### [Don't speak Chinese? Come over here! ](https://github.com/Freedom-Windows-Team/Lindows_11.1/tree/main#english-readme)
 
-
 提示：Lindows 11.1 尚未完工，此文档仅起到预告的作用。开发过程中随时可能会对功能进行增减，请以最终成品为准。
 
 **请认准唯一官方下载地址：https://github.com/Freedom-Windows-Team/Lindows_11.1/releases**
 
 **允许任何人以Lindows 11.1为基础制作属于自己的定制版Windows，但是必须在Readme中明确标明使用了我的作品且必须明确告知用户他们下载的文件不是由Freedom Windows Team官方发行的原版Lindows 11.1！**
 
-##  
-
+##
+#### 通知：Lindows 11.1仅支持Legacy启动，新电脑需要在BIOS设置中启用Legacy emulation并选择优先使用Legacy启动才能正常安装Lindows 11.1。
+#### 本人目前没有任何适配UEFI的打算。UEFI的修改难度更高，兼容性和稳定性还没有Legacy的表现优秀。启动速度上经本人测试并没有和Legacy拉开很大的差距，UEFI启动更快纯属心里作用！
+##### 若您执意要使用UEFI，那很抱歉我的Lindows 11.1无法满足您的需求。你可以去看一看隔壁家的[Efi Guard](https://github.com/Mattiwatti/EfiGuard)项目，或者在[Forks](https://github.com/Freedom-Windows-Team/Lindows_11.1/forks)中找一找看看有没有第三方为UEFI做了适配。
+##
 Windows中的种种限制让你感到不满？
 
 没关系，我会出手！
@@ -68,8 +70,8 @@ https://www.bilibili.com/read/cv20303238/
 hfiref0x的UPGDSED开源项目：
 https://github.com/hfiref0x/UPGDSED/blob/master/src/main.c
 
-Booty：
-http://alexhixon.com/projects/booty/booty.html
+Computernewb Wiki：
+https://computernewb.com/wiki/How_to_debomb_Windows_10/Server_2016_betas
 
 2013goldenegg：
 http://bbs.wuyou.net/forum.php?mod=viewthread&action=printable&tid=298603
