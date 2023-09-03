@@ -10,8 +10,6 @@
 
 ##
 
-# 正文：
-
 **通知：Lindows 11.1仅支持Legacy启动，新电脑需要在BIOS设置中启用Legacy emulation并选择优先使用Legacy启动才能正常安装Lindows 11.1。**
 
 **本人目前没有适配UEFI的打算。UEFI不仅修改难度更高，且兼容性和稳定性还没有Legacy的表现优秀。启动速度上经本人测试并没有和Legacy拉开很大的差距，UEFI启动更快纯属心里作用！**
@@ -19,6 +17,9 @@
 **若您执意要使用UEFI，那很抱歉我的原版Lindows 11.1无法满足您的需求。你可以在[Forks](https://github.com/Freedom-Windows-Team/Lindows_11.1/forks)中找一找有没有第三方为UEFI做了适配，或者去看一看隔壁家的[Efi Guard](https://github.com/Mattiwatti/EfiGuard)项目。**
 
 ##
+
+# 正文：
+
 Windows中的种种限制让你感到不满？
 
 没关系，我会出手！
