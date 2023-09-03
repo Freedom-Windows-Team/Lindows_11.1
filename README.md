@@ -10,6 +10,8 @@
 
 ##
 
+## 正文：
+
 **通知：Lindows 11.1仅支持Legacy启动，新电脑需要在BIOS设置中启用Legacy emulation并选择优先使用Legacy启动才能正常安装Lindows 11.1。**
 
 **本人目前没有适配UEFI的打算。UEFI不仅修改难度更高，且兼容性和稳定性还没有Legacy的表现优秀。启动速度上经本人测试并没有和Legacy拉开很大的差距，UEFI启动更快纯属心里作用！**
