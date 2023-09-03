@@ -421,7 +421,17 @@ Tip: Lindows 11.1 is not yet finished, this document only serves as a preview. F
 
 **Anyone is allowed to make their own customized version of Windows based on Lindows 11.1, but they must clearly indicate in Readme that they are using my work and they must clearly inform the user that the file they are downloading is not the original Lindows 11.1 officially released by Freedom Windows Team!**  
 
-##  
+##
+
+**NOTICE: Lindows 11.1 only supports legacy booting, any new devices must have legacy emulation enabled in BIOS setup and choose legacy booting as the first priority in order to install Lindows 11.1 properly.** 
+
+**Currently, I have no intention of supporting UEFI. Which is not only more difficult to modify, but also less reliable and compatible than Legacy. I did an experiment on the startup speed and obviously UEFI wasn't performing any better than legacy in my test. UEFI boots faster is purely just a heart effect!**
+
+**If you insist on using UEFI, then I'm sorry that my original Lindows 11.1 can't meet your needs. You can take a look in [Forks](https://github.com/Freedom-Windows-Team/Lindows_11.1/forks) to see if any third parties have ported this project to UEFI.**
+
+##
+
+# Main article:
 
 Are you frustrated with all those stuped restrictions in Windows?
 
@@ -451,7 +461,9 @@ I've never seen a more ignorant setup than this in my life.
 I can't take it anymore, I want to crack this stuped thing immediately.
 
 Although there have been quite a few tutorials on the internet about this tweak, the information never unite.
+
 You can hardly find any two articles that follow the same steps, except for porting.
+
 The worst part is that 90% of the articles are either outdated or simply have no effect at all.
 
 I had no choice but to try all the relevant sources I could find one by one.
