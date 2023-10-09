@@ -1,5 +1,7 @@
 # News: 
 
+**10/09/2023 -** Things are taking longer than expected, very sorry to whom waiting for Lindows 11.1 to come out. I have under estimated the complexity of this project. Please be patient, freedom of choice will come to you eventually! 
+
 **09/03/2023 -** Lindows 11.1 stealth mode comming soon! Only applications approved by YOU can run on your device! 
 
 We will be providing you a tool that can generate your own unique digital signature for free and use it to sign softwares and drivers that you trust. 
