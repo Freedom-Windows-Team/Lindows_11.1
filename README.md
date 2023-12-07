@@ -1,16 +1,15 @@
 # News: 
 
+**12/07/2023 -** For better secrity, we are assigning @114514NotAvailable a job to make a system integrity checker that is 100x better than the one built-in in windows for us. Including a fully automatic repair function that repairs corrupted system files once they are found. The integrity checker can be disabled at anytime by simply writing a registry value, not like the windows built in one that doesn't provide a disable option at all. And, best of all, this integrity checker is open sourced and the hard coded checksum values can be easily modified to keep your own mod of Lindows 11.1 safe! 
+The user will be notifyed if the integrity checker has been customized or fully disabled everytime they login, this notification cannot be disabled. Otherwise it leave oppertunity for malwares to secreatly disable this integrity checker, or even just compile their own ones from source that reports 'success' no matter what, all done without the user noticing anything. I'm sorry to say that we're going to heavly protect this integrity checker so Lindows 11.1 can be ready for productivity instead of just being a experimenting OS. This is the only module in the system that you can't temper with. If you've got any special requirements, please send an email to 114514NotAvailable@protonmail.com with detailed explaination of what you're trying to do. After we've reviewed your request, we will privately mail you a customized image without the integrity checker that you are strongly prohibited from sharing it with anyone. 
+
+**12/07/2023 -** We are now experimenting a method to destroy the PE checksum verification on windows 11, hopefully we can get it done soon so Lindows 11.1 can be released. 
+
+**12/07/2023 -** @114514NotAvailable joined the development of this project! 
+
+**12/07/2023 -** @sudo-000 joined the development of this project! 
+
 **10/09/2023 -** Things are taking longer than expected, very sorry to whom waiting for Lindows 11.1 to come out. I have under estimated the complexity of this project. Please be patient, freedom of choice will come to you eventually! 
-
-**09/03/2023 -** Lindows 11.1 stealth mode comming soon! Only applications approved by YOU can run on your device! 
-
-We will be providing you a tool that can generate your own unique digital signature for free and use it to sign softwares and drivers that you trust. 
-
-Anyone whoever wanna put unapproved apps onto your device will be rejected. 
-
-All signing actions will be recorded and can be reviewed. So no one else except yourself can sign programs to approve them. 
-
-Note: The stealth mode is currently only recommended for advanced users who care very much about security and freedom at the same time. Using this
 
 **09/03/2023 -** Almost ready! We've successfully made every components on Lindows 11.1 working well, it's now time for assembling them together and pack everything into a working ISO installation image! 
 
