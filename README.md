@@ -1,5 +1,9 @@
 # News: 
 
+**12/08/2023 -** dnmx.org is shutting down, I can no longer access my email FreedomWindows@dnmx.org. 
+This is probably my last visit here, bye guys. 
+I will later on invite my other account as a contributor to this project to keep it going. 
+
 **12/07/2023 -** For better secrity, we are assigning @114514NotAvailable a job to make a system integrity checker that is 100x better than the one built-in in windows for us. Including a fully automatic repair function that repairs corrupted system files once they are found. The integrity checker can be disabled at anytime by simply writing a registry value, not like the windows built in one that doesn't provide a disable option at all. And, best of all, this integrity checker is open sourced and the hard coded checksum values can be easily modified to keep your own mod of Lindows 11.1 safe! 
 The user will be notifyed if the integrity checker has been customized or fully disabled everytime they login, this notification cannot be disabled. Otherwise it leave oppertunity for malwares to secreatly disable this integrity checker, or even just compile their own ones from source that reports 'success' no matter what, all done without the user noticing anything. I'm sorry to say that we're going to heavly protect this integrity checker so Lindows 11.1 can be ready for productivity instead of just being a experimenting OS. This is the only module in the system that you can't temper with. If you've got any special requirements, please send an email to 114514NotAvailable@protonmail.com with detailed explaination of what you're trying to do. After we've reviewed your request, we will privately mail you a customized image without the integrity checker that you are strongly prohibited from sharing it with anyone. 
 
