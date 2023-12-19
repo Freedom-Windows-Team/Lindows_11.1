@@ -1,4 +1,5 @@
 # News: 
+**12/18/2023 -** OHHHHHHHHHHHHHHH! dnmx.org is back online again! YAY! I'm finally able to recieve emails at FreedomWindows@dnmx.org again! I'm back everyone! 
 
 **12/08/2023 -** dnmx.org is shutting down, I can no longer access my email FreedomWindows@dnmx.org. 
 This is probably my last visit here, bye guys. 
